@@ -1,0 +1,54 @@
+.Login_wrap,
+.Join_wrap {
+    padding: 100px;
+
+    h2 {
+        font-weight: 600;
+        font-size: 32px;
+        font-family: 'NanumSquareNeoExtraBold';
+        margin-bottom: 40px;
+    }
+    
+    p {
+        border-radius: 10px;
+        padding: 20px 50px;
+        background-color: #4FA2D0;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'NanumSquareNeoLight';
+        margin-bottom: 30px;
+    }
+
+    >div {
+        width: 535px;
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            width: 111px;
+            height: 111px;
+        }
+
+        .login {
+            display: flex;
+            flex-direction: column;
+
+            input {
+                margin-bottom: 10px;
+                width: 387px;
+                height: 55px;
+                padding: 0 30px;
+                border-radius: 500px;
+                border: 2px solid #4FA2D0;
+            }
+
+            button {
+                margin-top: 20px;
+                background-color: #4FA2D0;
+                height: 55px;
+                border-radius: 10px;
+                color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+button {
+    cursor: pointer;
+    background-color: #00000000;
+}
+
+input {
+    outline: none;
+}
+
+body>div>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
